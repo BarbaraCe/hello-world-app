@@ -1,0 +1,21 @@
+#middleBody{
+  background-color: white;
+  margin:50px;
+}
+
+#midMiddlePart{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-shrink:1;
+}
+
+#unfinishedProjects{
+  width: 30%;
+}
+
+#toDo{
+  width: 70%;
+}

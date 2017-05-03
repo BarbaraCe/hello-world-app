@@ -1,0 +1,92 @@
+<html>
+<body id="rightBody" ng-controller="MainCtrl">
+  <md-toolbar color="warn" id="toolbar">
+    <div id="tab">
+      <span id="span">PROFILE DETAILS</span>
+      <a id='here'></a>
+      <button id="hide" md-button><img src="assets/chal/right.png"></button>
+    </div>
+  </md-toolbar>
+  <div id="upperPart">
+
+    <p id="name" color="primary">Bruce Wayne</p>
+    <div id="profilePic">
+      <img id="homeIcon" src="assets/chal/imgres-copy_2.png">
+    </div>
+    <div id="status">
+      <div class="left">
+        <p class="first">Email</p>
+        <p class="first">Status</p>
+        <p class="first">Group</p>
+      </div>
+      <div class="right">
+        <p class="bold" >bruce.wayne@batman.org</p>
+        <p class="bold">tagger</p>
+        <p class="bold">PolyGram</p>
+      </div>
+  </div>
+
+    <div id="notifications">
+      <p>
+
+        <md-checkbox
+          [checked]="checked"
+          [indeterminate]="indeterminate"
+          [align]="align"
+          [disabled]="disabled">
+          Send notifications to my email
+        </md-checkbox>
+      </p>
+    </div>
+    <div id="report">
+      <p>
+        <md-checkbox
+          [checked]="checked"
+          [indeterminate]="indeterminate"
+          [align]="align"
+          [disabled]="disabled">
+          Send weekly report to my email
+        </md-checkbox>
+      </p>
+    </div>
+    <div id="buttons">
+      <button md-button class="buttond"><img class="png-icon" src="assets/chal/d-i-s-c-a-r-d.png"></button>
+      <button md-button class="buttond"><img class="png-icon" src="assets/chal/s-a-v-e.png"></button>
+    </div>
+    <p class="stat">STATISTICS</p>
+    <div id="statistics">
+
+      <!--div id="statisticsLeft"-->
+          <div id="left">
+            <p class="first">Active projects</p>
+            <p class="first">Finished projects</p>
+            <p class="first">Product tags</p>
+            <p class="first">Match ratio</p>
+            <p class="first">Daily tagging rate</p>
+            <p class="first">Tagging time</p>
+            <p class="first">Tagging speed</p>
+          </div>
+          <div id="right">
+            <p class="bold">3</p>
+            <p class="bold">3</p>
+            <p class="bold">765</p>
+            <p class="bold">37.5%</p>
+            <p class="bold">241</p>
+            <p class="bold">32</p>
+            <p  class="bold">30</p>
+          </div>
+      <!--/div-->
+
+      <img class="line" src="assets/chal/line.png">
+
+      <div id="statisticsRight">
+        <div><p>You tag approx.</p></div>
+        <img class="number" src="assets/chal/301.png">
+        <div><p>products per hour which is better than average tagging speed 28.7 products per hour.</p></div>
+        <div><p class="bold">Keep up the good work! :)</p></div>
+      </div>
+    </div>
+  </div>
+<script>
+</script>
+</body></html>

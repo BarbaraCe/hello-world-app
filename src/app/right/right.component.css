@@ -1,0 +1,137 @@
+#status{
+  display: flex;
+  flex-direction: row;
+}
+
+#hide{
+  align-self: flex-end;
+  margin-right: -100%;
+}
+
+#tab{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+#span{
+  margin-top: 3%;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.left{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.right{
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10%;
+  margin-right: 10%;
+}
+
+#left{
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+#right{
+  flex-direction: column;
+  align-items: flex-end;
+  width: 5%;
+}
+
+#name{
+  font-size: large;
+  font-weight: bold;
+}
+
+.first{
+}
+
+#upperPart{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#statistics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+  margin-top: -5%;
+
+}
+.stat {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.buttond{
+  width: 150px;
+  height: 75px;
+  padding: 4%;
+
+}
+
+.line{
+  height: 220px;
+  width: 3px;
+}
+
+.number{
+  height: 50px;
+  width: 100px;
+}
+
+#rightBody{
+  background-color: lightgrey;
+  font-size: small;
+}
+
+#statisticsLeft{
+  flex-direction: row;
+  align-items: flex-start;
+  width: 50%;
+}
+
+#statisticsRight{
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+#homeIcon{
+  width: 200px;
+  height: 200px;
+}
+
+.png-icon{
+  width: 100%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}

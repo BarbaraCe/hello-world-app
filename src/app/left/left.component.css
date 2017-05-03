@@ -1,0 +1,47 @@
+#menuItems {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#logoToolBar{
+  display: -webkit-flex;
+  display: flex;
+}
+
+.icons{
+  width: 10%;
+  height: 20%;
+  margin: 10px;
+}
+
+#logo {
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  margin: 8px;
+
+}
+
+#body{
+  background-color: black;
+}
+
+#homeMenu {
+}
+
+.items{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.items:hover{
+  color: dodgerblue;
+}

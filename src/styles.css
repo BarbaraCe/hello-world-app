@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files*/
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+.screen {
+  display: -webkit-flex;
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+
+#left {
+  width: 15%;
+}
+
+#right {
+  width: 30%;
+}
+
+#middle {
+  width: 55%;
+}
+
+html{
+  font-family: "Droid Sans";
+}

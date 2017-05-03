@@ -1,0 +1,65 @@
+#activityHead{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#profilePicture {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+#textActivity{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#text{
+  font-size: large;
+}
+
+.element{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin:-10px;
+  font-size: small;
+}
+
+.circle{
+  padding: 1%;
+}
+
+#activity{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+.nameOfTheShow{
+  font-weight: bold;
+}
+
+#button{
+  align-items: flex-start;
+  font-size: smaller;
+}
+
+.editLogout{
+  margin-top:-20px;
+  margin-left: -15px;
+}
